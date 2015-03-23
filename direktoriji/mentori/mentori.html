@@ -1,0 +1,247 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../../css/foundation.css" />
+	<link rel="stylesheet" href="../../css/stil.css" />
+    <script src="js/vendor/modernizr.js"></script>
+	<script type="text/javascript" src="js/jquery-2.1.3.min.js"> </script>
+	<script type="text/javascript" src="js/jquery.cycle.all.js"> </script>
+	<meta name="description" content="SSA" />
+	<meta name="keywords" content="ssa, software, startup, academy" />
+	<meta name="author" content="A(Ana)D(Dajana)S(Stojanović)L(Leh)" />
+	<meta property="og:title" content="SSA 2015."/>
+	<meta property="og:type" content="website"/>
+	<meta property="og:image" content="">
+	<meta property="og:description" content="Software StartUp Academy"/>
+    <title>SSA 2015.</title>
+	<link rel="ICON" href="slike/image.ico" type="image/ico" />
+    <script src="js/vendor/modernizr.js"></script>
+	  <link rel="ICON" href="../../slike/icon.ico" type="image/ico" />
+
+
+
+	<script type="text/javascript"> 
+	
+
+	$(function(){
+	
+		$('#play').click(function() {$('#slider').cycle('resume'); return false; });
+		$('#pause').click(function() {$('#slider').cycle('pause'); return false; });
+	
+	
+	$('#slider').cycle({
+		fx: 		'scrollHorz',
+		next:		'#next',
+		prev:		'#prev',
+		pager: 		'#pager',
+		timeout: 	3000,
+		speed:		900
+	
+	
+	
+	
+	});
+	});
+
+	
+    $(document).foundation();
+	  
+	  $(document).ready(function(){         
+			if (!Modernizr.input.placeholder)
+			{
+				
+				var placeholderText = $('#search').attr('placeholder');
+				
+				$('#search').attr('value',placeholderText);
+				$('#search').addClass('placeholder');
+				
+				$('#search').focus(function() {				
+					if( ($('#search').val() == placeholderText) )
+					{
+						$('#search').attr('value','');
+						$('#search').removeClass('placeholder');
+					}
+				});
+				
+				$('#search').blur(function() {				
+					if ( ($('#search').val() == placeholderText) || (($('#search').val() == '')) )                      
+					{	
+						$('#search').addClass('placeholder');					  
+						$('#search').attr('value',placeholderText);
+					}
+				});
+			}                
+        });         
+ 
+	  
+
+
+</script>
+
+</head>
+
+<body>
+
+
+<div class="panel panel1">
+
+<div class="small-1 medium-1 large-1 columns logo">
+<a href="../../index.html"><img src="../../slike/1.png" alt="logo"></a>
+</div>
+
+
+<div class="hide-for-small medium-10 large-3 columns software">  
+<a href="../../index.html"><img src="../../slike/2.png" alt="naslov logo"></a>
+
+</div>
+
+<div class="hide-for-small hide-for-small large-7 columns right">
+<ul class="right hide-for-medium-down">
+<form class="right widget widget_search" id="searchbox searchform" role="search" method="get" action="http://softwarecity.hr/">
+    <input id="search" type="text" name="s" id="s" placeholder="Pretraži...">
+    <input id="submit" type="submit" value="Pretraži">
+</form>
+</div>
+
+</ul>
+
+
+
+<div class="hide-for-small medium-10 large-2 columns software">  
+<a href="../../index.html"><img src="../../slike/3.png" alt="naslov logo"></a>
+
+</div>
+
+
+
+<div class="large-9 columns right row1">
+<nav class="top-bar navigacija" data-topbar role="navigation">
+  <ul class="title-area">
+     <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+    <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+  </ul>
+
+  <section class="top-bar-section">
+    <!-- Right Nav Section -->
+    <ul class="right">
+	
+	<li><a href="../../index.html"><img src="../../slike/kuca1.png" alt="home"></a></li>
+	
+      <li><a href="../oprojektu/oprojektu.html">O projektu</a></li>
+	  
+      <li>
+	 
+        <a href="../predavanja/predavanja.html">Predavanja</a>
+        
+      </li>
+	  <li>
+	 
+        <a href="#">Mentori</a>
+        
+      </li>
+      <li>
+	 
+        <a href="../galerija/galerija.html">Galerija</a>
+        
+      </li>
+	  
+    </ul>
+	</section>
+	
+</div>
+</div>	
+
+<!--KRAJ NAVIGACIJE-->
+
+
+
+<!--NASLOV-->
+<div class="row">
+<div class=" large-4 columns right">
+<h2>Mentori</h2>
+</div>
+</div>
+<!--KRAJ NASLOVA-->
+
+
+<div class="row">
+<div style="height:900px;" class="panel">
+<ul class="left">
+<li>Vedran Vučetić</li>
+<li>Damir Podhorski</li>
+<li>Davor Banović</li>
+<li>Ratko Mutavdžić</li>
+<li>Ilija Brajković</li>
+<li>Maja Čukušić</li>
+<li>Ida Pandur</li>
+<li>Luka Sučić</li>
+<li>Tomislav Car</li>
+<li>Domagoj Pavlešić</li>
+<li>Luka Abrus</li>
+<li>Tomislav Jakopec</li>
+<li>Tomislav Bilić</li>
+<li>Vlatko Vlahek</li>
+<li>Matija Kopić</li>
+<li>Bela Ikotić</li>
+<li>Igor Ralić</li>
+<li>Ana Rogina</li>
+<li>Miroslav Varga</li>
+<li>Zorin Radovančević</li>
+<li>Tomislav Tipurić</li>
+<li>Draško Ivanišević</li>
+<li>Nina Šindija</li>
+<li>Tomica Kaniški</li>
+<li>Saša Fišter</li>
+<li>Kristina Detelj</li>
+<li>Karlo Kukec</li>
+<li>Luka Klancir</li>
+<li>Vinko Horvat</li>
+<li>Zoran Antolović</li>
+<li>Dinko Jakovljević</li>
+<li>Filip Glavota</li>
+<li>Ivan Marković</li>
+<li>Leo Tot</li>
+<li>Luka Mandić</li>
+</ul>
+
+<img style="margin-top: 20px" class="right" src="../../slike/mentori.png" alt="slika">
+</div>
+</div>
+
+
+
+
+
+
+
+
+<footer class="row">
+<div class="large-12 columns">
+<hr/>
+<div class="row">
+<div class="large-6 columns">
+<p>&copy; Osijek Software City - A place for you to develop.<br />
+	OSIJEK SOFTWARE CITY
+	Otokara Keršovanija 4, 31000 Osijek
+
+<b>MB:</b> 4029658OIB: 06519815245   <b>IBAN:</b> HR8623400091110585534
+	SWIFT: PBZGHR2X <br />
+	Izradili studentice Informatologije - Ana Leh i Dajana Stojanović </p>
+</div>
+<div class="large-6 columns">
+<ul class="inline-list right">
+<li><a href="https://www.facebook.com/msacademichr"><img src="../../slike/face.png" alt="face"></a></li>
+<li><a href="https://twitter.com/osijeksoftwarec"><img src="../../slike/twitter.png" alt="twitter"></a></li>
+<li><a href="https://www.linkedin.com/groups/Software-Startup-Academy-Osijek-2014-8192402/about"><img src="../../slike/in.png" alt="in"></a></li>
+<li><a href="https://www.youtube.com/channel/UCfGEe6XG0ddX6dgact4iFRg"><img src="../../slike/youtube.png" alt="youtube"></a></li>
+</ul>
+</div>
+</div>
+</div>
+</footer>
+  
+</body>
+</html>

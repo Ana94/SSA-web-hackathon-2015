@@ -1,8 +1,11 @@
 # SSA Web hackathon 2015
-Web stranica koju smo kolegica Leh i ja napravile na SSA Web hackathonu i osvojile zavidno 5. mjesto. Nadamo se kako ćemo do idućeg hackathona napredovati i ostvariti bolji plasman.
+Web stranica koju smo kolegica Leh i ja napravile na SSA Web hackathonu, održanog 31.01.2015. te osvojile zavidno 5. mjesto. Nadamo se kako ćemo do idućeg hackathona napredovati i ostvariti bolji plasman.
 
 ##Zašto smo se prijavile na hackathon?
 >Najbolji odgovor na to pitanje bi bio taj da smo htjele vidjeti koliko dobro poznajemo rad u HTML-u i CSS-u i htjele smo saznati kako se snalazimo u okruženju ljudi kojima je glavna zanimacija web development.
+
+##Stranica
+>Klikom na ovaj <a href="http://oziz.ffos.hr/SSA0405H/adsl_/">link</a> možete vidjeti kako stranica izgleda.
 
 ##O stranici
 ### Tehničke stvari
